@@ -1,19 +1,19 @@
 export const coreServices = [
   {
-    id: 'facility-management',
-    title: 'Facility Management',
-    shortDescription: 'End-to-end facility management workforce solutions.',
-    icon: 'Settings',
-    link: '/services#facility-management',
-    image: '/images/crewmanpower-facility-management.jpg',
-    fullDescription: 'Integrated technical manpower solutions ensuring seamless mechanical, electrical, plumbing, and general infrastructural operations for modern estates and plants.',
+    id: 'corporate-staffing',
+    title: 'Corporate Staffing',
+    shortDescription: 'Skilled manpower for office and administrative operations.',
+    icon: 'Users',
+    link: '/services#corporate-staffing',
+    image: '/images/crewmanpower-corporate-staffing.jpg',
+    fullDescription: 'Connecting high-growth enterprises with reliable operational, administrative, customer support, and executive personnel for project-based or permanent placements.',
     keyRoles: [
-      'HVAC & MEP Maintenance Technicians',
-      'Licensed Electricians & Plumbers',
-      'Utility & Boiler Operators',
-      'Preventive Maintenance Supervisors'
+      'Executive Assistants & Front-Desk Executives',
+      'Data Entry & Document Processing Specialists',
+      'Customer Support & Helpdesk Representatives',
+      'Facility & Office Operations Coordinators'
     ],
-    features: ['Technical certification checked', 'Zero downtime SLA mindset', 'On-site supervisory coverage']
+    features: ['Pre-screened domain competence', 'Quick ramp-up onboarding', 'Flexible payroll & contract options']
   },
   {
     id: 'healthcare-staffing',
@@ -30,6 +30,22 @@ export const coreServices = [
       'Hospital Administrative & Records Support'
     ],
     features: ['100% credential verification', 'Rapid emergency deployment', 'Stringent background checks']
+  },
+  {
+    id: 'facility-management',
+    title: 'Facility Management',
+    shortDescription: 'End-to-end facility management workforce solutions.',
+    icon: 'Settings',
+    link: '/services#facility-management',
+    image: '/images/crewmanpower-facility-management.jpg',
+    fullDescription: 'Integrated technical manpower solutions ensuring seamless mechanical, electrical, plumbing, and general infrastructural operations for modern estates and plants.',
+    keyRoles: [
+      'HVAC & MEP Maintenance Technicians',
+      'Licensed Electricians & Plumbers',
+      'Utility & Boiler Operators',
+      'Preventive Maintenance Supervisors'
+    ],
+    features: ['Technical certification checked', 'Zero downtime SLA mindset', 'On-site supervisory coverage']
   },
   {
     id: 'security-services',
@@ -62,22 +78,6 @@ export const coreServices = [
       'Housekeeping Shift Supervisors'
     ],
     features: ['Trained in modern sanitation chemicals', 'High OSHA/safety compliance', 'Uniformed and well-groomed staff']
-  },
-  {
-    id: 'corporate-staffing',
-    title: 'Corporate Staffing',
-    shortDescription: 'Skilled manpower for office and administrative operations.',
-    icon: 'Users',
-    link: '/services#corporate-staffing',
-    image: '/images/crewmanpower-corporate-staffing.jpg',
-    fullDescription: 'Connecting high-growth enterprises with reliable operational, administrative, customer support, and executive personnel for project-based or permanent placements.',
-    keyRoles: [
-      'Executive Assistants & Front-Desk Executives',
-      'Data Entry & Document Processing Specialists',
-      'Customer Support & Helpdesk Representatives',
-      'Facility & Office Operations Coordinators'
-    ],
-    features: ['Pre-screened domain competence', 'Quick ramp-up onboarding', 'Flexible payroll & contract options']
   },
   
 ];

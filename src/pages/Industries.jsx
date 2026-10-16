@@ -77,10 +77,10 @@ export default function Industries() {
                       </p>
 
                       {/* Stat badge */}
-                      <div className="bg-blue-50/70 border border-blue-100 rounded-lg p-2.5 text-xs font-bold text-brand-navy flex items-center justify-between">
+                      {/* <div className="bg-blue-50/70 border border-blue-100 rounded-lg p-2.5 text-xs font-bold text-brand-navy flex items-center justify-between">
                         <span className="text-brand-muted font-normal">Track Record:</span>
                         <span className="text-brand-primary">{ind.stats}</span>
-                      </div>
+                      </div> */}
 
                       {/* Roles */}
                       <div>
