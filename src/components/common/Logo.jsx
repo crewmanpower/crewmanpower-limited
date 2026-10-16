@@ -47,15 +47,29 @@ export default function Logo({
       </div>
 
       {showText && (
-        <span className={`font-black tracking-tight leading-none ${textSizeClasses[size] || textSizeClasses.md}`}>
-          <span className={variant === 'light' ? 'text-white' : 'text-[#071B36]'}>
-            CREW
-          </span>
-          <span className="text-[#FF7900]">
-            MANPOWER
-          </span>
-        </span>
-      )}
+  <div className="flex flex-col leading-none">
+    <div
+      className={`font-black tracking-tight ${
+        textSizeClasses[size] || textSizeClasses.md
+      }`}
+    >
+      <span className={variant === 'light' ? 'text-white' : 'text-[#071B36]'}>
+        CREW
+      </span>
+      <span className="text-[#FF7900]">MANPOWER</span>
+    </div>
+
+    <span
+      className={`mt-1 text-[9px] sm:text-[10px] font-semibold
+      tracking-[0.12em] uppercase whitespace-nowrap ${
+        variant === 'light' ? 'text-gray-200' : 'text-slate-500'
+      }`}
+    >
+      Staffing Solutions For Success
+    </span>
+  </div>
+)}
+
     </Link>
   );
 }

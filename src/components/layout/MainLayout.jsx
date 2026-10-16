@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import ChatWidget from '../../features/chat/ChatWidget';
+import WhatsAppWidget from '../../features/chat/WhatsAppWidget';
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
@@ -30,7 +30,7 @@ export default function MainLayout() {
         <Outlet />
       </main>
       <Footer />
-      <ChatWidget />
+      <WhatsAppWidget />
     </div>
   );
 }
