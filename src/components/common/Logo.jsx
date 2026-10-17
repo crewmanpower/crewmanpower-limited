@@ -60,12 +60,12 @@ export default function Logo({
     </div>
 
     <span
-      className={`mt-1 text-[9px] sm:text-[10px] font-semibold
+      className={`mt-1 text-[9px] sm:text-[7px] font-semibold text-center
       tracking-[0.12em] uppercase whitespace-nowrap ${
-        variant === 'light' ? 'text-gray-200' : 'text-slate-500'
+        variant === 'light' ? 'text-gray-200' : 'text-[#071B36]'
       }`}
     >
-      Staffing Solutions For Success
+      —Staffing Solutions For Success—
     </span>
   </div>
 )}
